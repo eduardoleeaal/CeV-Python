@@ -1,0 +1,5 @@
+coisa = input('Digite qualquer coisa: ')
+print('tipo: {}'.format(type(coisa)))
+print('é numerico: {}'.format(coisa.isnumeric()))
+print('apenas letras: {}'.format(coisa.isalpha()))
+print('é alfanumerico: {}'.format(coisa.isalnum()))
